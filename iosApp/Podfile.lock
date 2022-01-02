@@ -1,16 +1,27 @@
 PODS:
+  - BottomSheetSwiftUI (2.4.0)
   - shared (1.0)
+  - ToastUI (2.0.0)
 
 DEPENDENCIES:
+  - BottomSheetSwiftUI
   - shared (from `../shared`)
+  - ToastUI
+
+SPEC REPOS:
+  trunk:
+    - BottomSheetSwiftUI
+    - ToastUI
 
 EXTERNAL SOURCES:
   shared:
     :path: "../shared"
 
 SPEC CHECKSUMS:
+  BottomSheetSwiftUI: c176c3022969d6383deaa388dd011199cc50f5bd
   shared: 7b4d6aa8aa7ada5f9dae3229e2524d316cb9f063
+  ToastUI: 391eb9a1cc15e7ef4b79ee112e4a0b969259154f
 
-PODFILE CHECKSUM: f282da88f39e69507b0a255187c8a6b644477756
+PODFILE CHECKSUM: 1778bf94dd0f851650afee9458b2e6fed56d06b5
 
 COCOAPODS: 1.11.2
